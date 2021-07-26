@@ -2,7 +2,7 @@ pipeline {
   
    agent any
      
-     stage('Test') { 
+     stage('"Test") { 
         steps { 
            sh 'echo "testing application..."'
         }
