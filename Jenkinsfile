@@ -8,13 +8,9 @@ pipeline {
         }
       }
 
-         stage("Deploy nodejs application") { 
-         steps { 
-           sh 'echo "deploying application..."'
-         }
-
+     stage("Deploy nodejs application") { 
+       steps { 
+          sh 'echo "deploying application..."'
+       }
      }
-  
-   	}
-
-   }
+}
